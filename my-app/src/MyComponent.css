@@ -1,0 +1,13 @@
+.draggable-component {
+    position: absolute;
+    cursor: grab;
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    user-select: none;
+    transition: box-shadow 0.2s;
+}
+
+.draggable-component:active {
+    cursor: grabbing;
+}
